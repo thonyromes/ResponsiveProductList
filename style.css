@@ -1,0 +1,20 @@
+.static-w--100 {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+.dynamic-w-flex {
+  flex: 1 1 (100% - 150px);
+}
+
+.brand-img,
+.product__img {
+  outline: 2px solid cornflowerblue;
+  height: 100px;
+}
+
+@media screen and (min-width: 320px) {
+  .flex-xs-nowrap {
+    flex-wrap: nowrap !important;
+  }
+}
